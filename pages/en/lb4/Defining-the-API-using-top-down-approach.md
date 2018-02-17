@@ -1,14 +1,14 @@
 ---
 lang: en
-title: 'Defining and validating the API'
+title: 'Defining the API using top-down approach'
 keywords: LoopBack 4.0, LoopBack 4
 tags:
 sidebar: lb4_sidebar
-permalink: /doc/en/lb4/Defining-and-validating-the-API.html
+permalink: /doc/en/lb4/Defining-the-API-using-top-down-approach.html
 summary:
 ---
 
-## Define the API
+## Define the API from top to bottom
 
 ### Start with data
 
@@ -340,6 +340,12 @@ describe('API specification', () => {
 ```
 
 See [Validate your OpenAPI specification](Testing-your-application.html#validate-your-openapi-specification) from [Testing your application](Testing-your-application.html) for more details.
+
+{% include note.html content="
+  If you would like to make tweaks to your API as you develop your application,
+  refer to [Defining the API using bottom-up approach](Defining-the-API-using-bottom-up-approach)
+  page for best practices.
+" %}
 
 {% include next.html content= "
 [Testing the API](./Testing-the-API.html)
